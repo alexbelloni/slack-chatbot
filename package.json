@@ -1,0 +1,24 @@
+{
+  "name": "chatbot",
+  "version": "1.0.0",
+  "description": "A Slack bot integration with NASA data",
+  "main": "chatbot.js",
+  "dependencies": {
+    "@slack/rtm-api": "^6.0.0",
+    "@slack/web-api": "^6.1.0",
+    "discord.js": "^11.2.1",
+    "dotenv": "^8.2.0",
+    "express": "^4.13.x",
+    "request": "^2.60.0",
+    "slack-client": "^1.4.1",
+    "strip-indent": "^2.0.0",
+    "superagent": ">=3.7.0"
+  },
+  "engines": {
+    "node": "12.x"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node chatbot.js"
+  }
+}
